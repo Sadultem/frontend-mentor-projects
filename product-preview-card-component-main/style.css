@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Monsterrat';
+    src: url(assets/Montserrat/static/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Monsterrat';
+    src: url(assets/Montserrat/static/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(assets/Fraunces/static/Fraunces_72pt-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.product-preview-card {
+    border-color: red;
+    display: flex;
+    height: 590px;
+    width: 790px;
+}
+
+.product-image {
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.product-info {
+    width: 50%;
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+}
+
+.perfume {
+    font-family: 'Monsterrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.product-name {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    width: 250px;
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+    top: 35px;
+    line-height: 1.0;
+}
+
+.product-description {
+    font-family: 'Monsterrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 1.2rem;
+    width: 310px;
+    line-height: 1.5;
+    margin-top: 70px;
+    position: relative;
+    left: 20px;
+}
+
+.product-price {
+font-family: 'Monsterrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 1.2rem;
+    margin-top: 34px;
+    position: relative;
+    left: 20px;
+}
+
+.price {    
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    text-decoration: line-through;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monsterrat';
+    font-weight: 700;
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 320px;
+    border: none;
+    border-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    height: 60px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+
+.card-icon {
+    font-size: 1.7rem;
+    margin-right: 12px;
+}

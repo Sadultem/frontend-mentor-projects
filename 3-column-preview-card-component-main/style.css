@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url(Lexend_Deca/static/LexendDeca-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Big Shoulders';
+    src: url(Big_Shoulders/static/BigShoulders-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    inset: 0px;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.car-box {
+
+    display: flex;
+    width: 1200px;
+    height: 700px;
+}
+
+.sedan-box {
+    border-radius: 10px 0px 0px 10px;
+    width: 400px;
+    height: 100%;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedan-button {
+    color: hsl(31, 77%, 52%);
+    ;
+}
+
+.sedan-button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-box {
+    width: 400px;
+    height: 100%;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suvs-button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-box {
+    border-radius: 0px 10px 10px 0px;
+    width: 400px;
+    height: 100%;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury-button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+svg {
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+
+h2 {
+    font-family: 'Big Shoulders';
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 110px;
+    left: 70px;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.2rem;
+    position: relative;
+    width: 270px;
+    line-height: 33px;
+    top: 150px;
+    left: 70px;
+}
+
+button {
+
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 50px;
+    height: 55px;
+    width: 170px;
+    position: relative;
+    top: 300px;
+    left: 70px;
+    border-style: none;
+}
+
+button:hover {
+    color: white;
+    border: white solid;
+}
