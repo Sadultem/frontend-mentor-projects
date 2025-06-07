@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Karla';
+    src: url(assets/Karla/static/Karla-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url(assets/Karla/static/Karla-Bold.ttf);
+    font-weight: 700;
+}
+
+
+* {
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 22%, 67%);
+}
+
+.container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.box-top {
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.join {
+    position: relative;
+    top: 35px;
+    left: 35px;
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.monthly-free {
+    position: relative;
+    top: 40px;
+    left: 35px;
+    color: hsl(71, 68%, 53%);
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.monthly-about {
+    position: relative;
+    top: 33px;
+    left: 35px;
+    width: 550px;
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.container-bottom {
+    display: flex;
+}
+
+.box-left {
+    width: 300px;
+    height: 250px;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 0px 10px;
+}
+
+.monthly-subscription {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: white;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.monthly-payment {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    color: white;
+    font-family: 'Karla';
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+.monthly-per {
+    position: relative;
+    top: 45px;
+    left: 50px;
+    color: hsl(178, 27%, 76%);
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.per-day {
+    position: relative;
+    top: 55px;
+    left: 40px;
+    color: hsl(201, 52%, 94%);
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sign-up {
+    box-shadow: 5px 10px 10px 0px hsl(179, 43%, 38%);
+    border-style: none;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    width: 220px;
+    height: 44px;
+    background-color: hsl(71, 68%, 53%);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.box-right {
+    width: 300px;
+    height: 250px;
+    background-color: hsl(179, 50%, 48%);
+    border-radius: 0px 0px 10px 0px;
+}
+
+.why-us {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: white;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.tutorials-industry {
+    position: relative;
+    top: 44px;
+    left: 40px;
+    color: hsl(201, 26%, 87%);
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
